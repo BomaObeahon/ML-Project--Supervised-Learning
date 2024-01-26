@@ -1,16 +1,25 @@
-# machine_learning_project-supervised-learning
+Diabetes Prediction Project
 
-## Project Outcomes
-- Supervised Learning: use supervised learning techniques to build a machine learning model that can predict whether a patient has diabetes or not, based on certain diagnostic measurements.The project involves three main parts: exploratory data analysis, preprocessing and feature engineering, and training a machine learning model. 
-### Duration:
-Approximately 3 hours and 20 minutes.
-### Project Description:
-In this projects, you will apply supervised learning techniques to a real-world data set and use data visualization tools to communicate the insights gained from the analysis.
+Introduction:
+This project aims to predict the onset of diabetes based on various factors using machine learning models. The dataset used contains information about individuals' pregnancies, glucose levels, blood pressure, skin thickness, insulin levels, BMI, diabetes pedigree function, and age.
 
-The data set for this project is the "Diabetes" dataset from the National Institute of Diabetes and Digestive and Kidney Diseases 
-The project will involve the following tasks:
+Analysis:
 
--	Exploratory data analysis and pre-processing: We will import and clean the data sets, analyze and visualize the relationships between the different variables, handle missing values and outliers, and perform feature engineering as needed.
--	Supervised learning: We will use the Diabetes dataset to build a machine learning model that can predict whether a patient has diabetes or not, using appropriate evaluation metrics such as accuracy, precision, recall, F1-score, and ROC-AUC. We will select at least two models, including one ensemble model, and compare their performance.
+The average glucose level for individuals with diabetes is approximately 142.13, while for individuals without diabetes, it is around 110.68.
+The average BMI for individuals with diabetes is approximately 35.38, and for individuals without diabetes, it is around 30.89.
+The dataset is imbalanced, with 500 instances of non-diabetic individuals and 268 instances of diabetic individuals.
 
-The ultimate goal of the project is to gain insights from the data sets and communicate these insights to stakeholders using appropriate visualizations and metrics to make informed decisions based on the business questions asked."
+Model Performance:
+
+Three machine learning models were trained and evaluated: Random Forest, Logistic Regression, and Decision Tree.
+Random Forest performed the best with an accuracy score of 0.76.
+
+Conclusion:
+
+The dataset contains information about various factors related to diabetes.
+Random Forest is the preferred model for predicting diabetes onset.
+The dataset is imbalanced, which can affect model performance.
+Glucose level is found to be the most important feature for predicting diabetes.
+
+Note: Outliers were present in the dataset, and further preprocessing may be required for better model performance.
+
