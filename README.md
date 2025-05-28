@@ -1,4 +1,4 @@
-![Alt text](images/Dia image.jpg)
+![Diabetes Chart](Dia%20image.jpg)
 Diabetes Prediction Project
 
 Introduction:
