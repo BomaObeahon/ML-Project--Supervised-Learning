@@ -1,3 +1,4 @@
+![Alt text](images/Dia image.jpg)
 Diabetes Prediction Project
 
 Introduction:
